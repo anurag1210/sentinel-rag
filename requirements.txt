@@ -1,0 +1,7 @@
+fastapi[standard]
+uvicorn
+boto3
+requests
+requests-aws4auth
+python-dotenv
+pymupdf
