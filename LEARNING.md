@@ -168,3 +168,103 @@ Phase 4
 At that point?
 
 You are interview-ready.
+
+
+
+Here’s What I Would Do If I Were You
+
+Not read entire Next.js docs.
+
+Not binge YouTube.
+
+Not randomly grind LeetCode.
+
+Instead:
+
+⸻
+
+Phase 1: Lock Down Explanation Ability (2 Weeks)
+
+You must be able to explain what YOU built.
+
+Not theory.
+
+Your system.
+
+Practice answering:
+	1.	What happens when user clicks “Send”?
+	2.	How does streaming work?
+	3.	Why SSE and not WebSockets?
+	4.	Why BFF?
+	5.	Why RAG over fine-tuning?
+	6.	Where is latency highest?
+	7.	How would you scale to 10k users?
+
+If you can answer these clearly, you’re already stronger than 70% of candidates.
+
+We can simulate these interviews daily.
+
+⸻
+
+Phase 2: Deepen Only What Matters (Targeted, Not Random)
+
+You don’t need to “learn Next.js”.
+
+You need to understand:
+	•	API route proxying
+	•	Request lifecycle
+	•	Fetch streaming
+	•	TypeScript basics (types + state)
+
+That’s it.
+
+For FastAPI:
+	•	async/await
+	•	StreamingResponse
+	•	Generators
+	•	Dependency injection
+	•	CORS middleware
+
+That’s it.
+
+For AWS:
+	•	IAM roles
+	•	Bedrock auth
+	•	OpenSearch billing model
+	•	VPC basics
+
+That’s it.
+
+No fluff.
+
+⸻
+
+Phase 3: Controlled Technical Question Exposure
+
+We will:
+	•	Do mock interviews
+	•	Practice answering live
+	•	Improve clarity
+	•	Refine explanations
+	•	Increase speed gradually
+
+Not random humiliation.
+
+Structured growth.
+
+⸻
+
+Very Important Truth
+
+Interviewers don’t expect perfection.
+
+They look for:
+	•	Clear thinking
+	•	Trade-off awareness
+	•	Systems understanding
+	•	Calm reasoning
+	•	Ability to admit unknowns intelligently
+
+You already show all of these in our discussions.
+
+You just don’t trust yourself yet.
