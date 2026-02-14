@@ -1,0 +1,170 @@
+1️⃣ Core Python (Non-Negotiable)
+
+You must be dangerous here.
+
+You should be fluent in:
+	•	Async / await
+	•	Generators & iterators
+	•	Context managers
+	•	Typing (List, Dict, TypedDict, Pydantic)
+	•	Error handling patterns
+	•	Packaging structure
+	•	Dependency injection basics
+	•	Logging best practices
+
+Interview Expectation:
+
+“Explain how streaming works in your FastAPI app.”
+
+If you cannot explain generators → weak signal.
+
+⸻
+
+🧠 2️⃣ LLM Fundamentals (Deep Understanding)
+
+You don’t need to train models.
+But you must understand how they behave.
+
+Topics:
+	•	Tokens vs characters
+	•	Context window
+	•	Temperature / Top-p
+	•	Prompt injection
+	•	Hallucination
+	•	RAG vs fine-tuning
+	•	Embeddings (cosine similarity)
+	•	Vector search basics
+	•	Chunking strategies
+	•	Re-ranking
+
+If interviewer asks:
+
+Why did you choose RAG instead of fine-tuning?
+
+You must answer confidently.
+
+⸻
+
+🔍 3️⃣ Vector Databases & Retrieval
+
+You used OpenSearch.
+Good.
+
+Now understand:
+	•	FAISS
+	•	Pinecone
+	•	OpenSearch vs Elasticsearch
+	•	HNSW
+	•	Approximate Nearest Neighbor
+	•	Indexing latency vs query latency tradeoffs
+	•	Embedding dimension impact
+
+This is very interview relevant.
+
+⸻
+
+🏗 4️⃣ System Design for AI Systems (CRUCIAL)
+
+This is where you level up.
+
+You must be able to design:
+	•	Multi-tenant RAG system
+	•	Chat history storage
+	•	Token cost monitoring
+	•	Streaming architecture
+	•	Caching layer (Redis)
+	•	Rate limiting
+	•	Circuit breakers
+	•	Observability (Prometheus, logs, tracing)
+	•	Model fallback strategy
+
+If I ask:
+
+How would you scale this to 10,000 users?
+
+You must think in:
+	•	Horizontal scaling
+	•	Stateless backend
+	•	Load balancer
+	•	Async workers
+	•	Queue systems
+
+⸻
+
+🌐 5️⃣ Backend Engineering Depth
+
+You don’t need to master Next.js.
+But you must understand:
+	•	REST vs SSE vs WebSockets
+	•	CORS
+	•	BFF pattern
+	•	API gateway concept
+	•	Reverse proxy (Nginx)
+	•	Auth basics (JWT)
+
+You should explain:
+
+Why did you put a BFF layer instead of calling FastAPI directly?
+
+That’s senior thinking.
+
+⸻
+
+☁️ 6️⃣ Cloud & DevOps (Huge Differentiator)
+
+You already touched AWS.
+Now deepen:
+	•	IAM roles
+	•	Bedrock authentication
+	•	VPC basics
+	•	OCU billing model
+	•	Docker fundamentals
+	•	ECS vs EKS
+	•	Infrastructure as Code (Terraform basics)
+	•	Environment variables & secrets management
+
+This alone can double your market value.
+
+⸻
+
+📊 7️⃣ Production AI Concerns (Very Senior)
+
+These separate mid from senior.
+	•	Evals
+	•	Guardrails
+	•	Latency budgeting
+	•	Cost tracking per request
+	•	Prompt versioning
+	•	Structured output validation
+	•	Retry logic for model failures
+	•	Monitoring hallucination rate
+	•	Canary deployment for prompts
+
+Most people don’t even know these exist.
+
+
+Follow this:
+
+Phase 1 (2 weeks)
+	•	Async Python deep dive
+	•	SSE vs WebSockets
+	•	Tokenization & embeddings math
+
+Phase 2 (2 weeks)
+	•	Vector DB internals
+	•	Chunking experiments
+	•	Retrieval quality tuning
+
+Phase 3 (2 weeks)
+	•	AI system design
+	•	Multi-user RAG architecture
+	•	Add Redis caching layer
+
+Phase 4
+	•	Dockerize
+	•	Add auth
+	•	Add monitoring
+
+At that point?
+
+You are interview-ready.
