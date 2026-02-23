@@ -95,3 +95,26 @@ Cloud:
 	•	Vector dimensional consistency is critical
 	•	Proper environment configuration avoids subtle failures
 	•	Prompt structure directly impacts hallucination behavior
+
+
+
+🚀 Scalability & Production Considerations
+	•	Designed with stateless backend architecture to support horizontal scaling.
+	•	LLM inference is the primary latency and cost driver; streaming improves perceived responsiveness but not compute cost.
+	•	Vector retrieval is optimized using embedding normalization and KNN search.
+	•	Future production improvements include:
+	•	Caching frequent queries
+	•	Rate limiting and request throttling
+	•	Distributed vector indexing
+	•	Background evaluation harness for retrieval precision
+
+
+ Future Enhancements
+	•	Multi-agent orchestration for task decomposition
+	•	Structured output validation using JSON schemas
+	•	Retrieval evaluation harness (precision@k benchmarking)
+	•	Prompt versioning and A/B testing
+	•	Observability integration (metrics + tracing)
+	•	Dockerization & container orchestration
+
+
